@@ -40,3 +40,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Backstop data
+/backstop_data/bitmaps_test/*
+/backstop_data/html_report/*
+!/backstop_data/*/.gitkeep

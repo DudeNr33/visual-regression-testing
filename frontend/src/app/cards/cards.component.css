@@ -1,0 +1,35 @@
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 220px;
+}
+
+.card {
+    background-color: rgb(24, 24, 24);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.card::before {
+    background: radial-gradient(
+        800px circle at 100px 100px,
+        rgba(255, 255, 255, 0.06),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}

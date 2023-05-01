@@ -1,0 +1,68 @@
+{
+    meta: {
+        createdAt: '2023-05-01T14:41:01.918Z',
+        host: 'http://localhost:8001',
+        resHumanReadable: true,
+    },
+    req: {
+        headers: {
+            pragma: 'no-cache',
+            'cache-control': 'no-cache',
+            accept: 'application/json, text/plain, */*',
+            origin: 'http://localhost:4200',
+            referer: 'http://localhost:4200/',
+            'accept-encoding': 'gzip, deflate, br',
+        },
+        url: '/cards',
+        method: 'GET',
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            date: [
+                'Mon, 01 May 2023 14:41:01 GMT',
+            ],
+            server: [
+                'uvicorn',
+            ],
+            'content-length': [
+                '150',
+            ],
+            'content-type': [
+                'application/json',
+            ],
+            'access-control-allow-credentials': [
+                'true',
+            ],
+            'access-control-allow-origin': [
+                'http://localhost:4200',
+            ],
+            vary: [
+                'Origin',
+            ],
+            connection: [
+                'close',
+            ],
+        },
+        body: {
+            index: 0,
+            first: true,
+            last: true,
+            content: [
+                {
+                    content: 'First card',
+                },
+                {
+                    content: 'Second card',
+                },
+                {
+                    content: 'Third card',
+                },
+                {
+                    content: 'Fourth card',
+                },
+            ],
+        },
+    },
+}
